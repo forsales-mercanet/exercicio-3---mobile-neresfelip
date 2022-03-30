@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_size">16sp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="margin_component">10dp</dimen>
+</resources>

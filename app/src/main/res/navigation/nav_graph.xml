@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="br.com.neresfelip.mercanet.view.ListaFragment"
+        tools:layout="@layout/fragment_lista">
+
+        <action
+            android:id="@+id/action_ListaFragment_to_CadastroFragment"
+            app:destination="@+id/SecondFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="br.com.neresfelip.mercanet.view.CadastroFragment"
+        tools:layout="@layout/fragment_cadastro">
+
+        <action
+            android:id="@+id/action_CadastroFragment_to_ListaFragment"
+            app:destination="@+id/FirstFragment" />
+
+        <argument
+            android:name="@string/arg_name"
+            app:argType="integer" />
+
+    </fragment>
+</navigation>

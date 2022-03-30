@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mercanet</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="moedas">Moedas</string>
+    <string name="codigo">Código</string>
+    <string name="descricao">Descrição</string>
+    <string name="abreviatura">Abreviatura</string>
+    <string name="cotacao_atual">Cotação atual</string>
+    <string name="apagar">Apagar</string>
+    <string name="salvar">Salvar</string>
+    <string name="arg_name">codigo</string>
+    <string name="nova_moeda">Nova moeda</string>
+    <string name="editar_moeda">Editar moeda</string>
+    <string name="erro_campo_vazio">Este campo não pode ficar vazio</string>
+    <string name="save_reg_pergunta">Deseja salvar este registro?</string>
+    <string name="sim">Sim</string>
+    <string name="save_reg_toast_msg_confirm">Salvo com sucesso</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="exclui_reg_pergunta">Deseja excluir este registro?</string>
+    <string name="exclui_reg_toast_msg_confirm">Excluído com sucesso</string>
+    <string name="msg_alteracao_cod_novo_reg">Ao mudar o código, você irá inserir um novo registro. Continuar?</string>
+    <string name="msg_alteracao_cod_edit_reg">Ao mudar o código para o mesmo de outro registro, você irá editar ele. Continuar?</string>
+    <string name="msg_codigo_existe">Este código já existe! Deseja editar o registro vinculado a ele?</string>
+    <string name="continuar">Continuar</string>
+    <string name="msg_list_moedas_vazia">Não há moedas cadastradas</string>
+    <string name="erro_campo_zero">Este campo não pode conter valor 0</string>
+</resources>

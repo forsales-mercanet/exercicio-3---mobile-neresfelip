@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.neresfelip.mercanet.MainActivity">
+
+    <item
+        android:id="@+id/action_apagar"
+        android:title="@string/apagar"
+        android:icon="@drawable/ic_baseline_delete_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_salvar"
+        android:title="@string/salvar"
+        android:icon="@drawable/ic_baseline_check_24"
+        app:showAsAction="ifRoom" />
+
+</menu>
